@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0px;
-    padding: 0px 72px;
+    padding: 0px 200px;
 }
 
 .header h1 {
@@ -66,7 +66,7 @@ button {
     width: 65%;
     justify-content: space-between;
     align-items: center;
-    padding: 64px;
+    padding: 72px;
 }
 
 .placeholder {
@@ -85,7 +85,7 @@ button {
     align-items: center;
     justify-content: center;
     gap: 32px;
-    margin-bottom: 64px;
+    margin-bottom: 72px;
 }
 
 .info_title {
@@ -93,7 +93,7 @@ button {
     font-weight: 900px;
     color: #1f2937;
     text-align: center;
-    margin-top: 64px;
+    margin-top: 72px;
 }
 
 .info p {
@@ -111,6 +111,28 @@ button {
     height: 150px;
     border-radius: 12px;
     border: 3px solid #3882F6;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    padding: 72px;
+}
+
+.quote div {
+    width: 750px;
+}
+
+.author {
+    text-align: end;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .footer {
