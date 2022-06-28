@@ -10,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0px;
+    padding: 0px 24px;
 }
 
 .header h1 {
@@ -29,6 +30,54 @@ li {
     padding: 8px;
     margin: 10px 24px;
     list-style-type: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    padding: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 12px;
+    border-color: #3882F6;
+    color: #E5E7EB;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.hero_contents {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+}
+
+.placeholder {
+    background-color: grey;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
 }
 
 .footer {
